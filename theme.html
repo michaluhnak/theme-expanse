@@ -180,6 +180,7 @@
           <div data-type-cleanup="true">
             {{ post.content }}
             {% if post.type == 'link' or post.type == 'webclip' %}
+            {{ theme.social.bar }}
             <p class="link-url"><i class="icon-share"></i> <a href="{{ link.url }}">{{ link.url }}</a></p>
             {% endif %}
           </div>
