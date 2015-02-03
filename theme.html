@@ -51,6 +51,7 @@
             {% for page in pages %}
             <li><a href="{{ page.permalink }}" class="{{ set_active(page.permalink) }}">{{ page.title }}</a></li>
             {% endfor %}
+          <li><a href="/tag/design" class="{{ set_active('/tag/design') }}">Design</a></li>
         </ul>
         {% endif %}
       </div>
